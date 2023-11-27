@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas de exercicio 1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+       <table>
+        <thead>
+            <tr>
+                <th class="start"><b>1</b></th>
+                <th class="start"><b>2</b></th>
+                <th class="start"><b>3</b></th>
+            </tr>
+
+            <tbody>
+                <tr class="center">
+                    <td><b>4</b></td>
+                    <td><b>5</b></td>
+                    <td><b>6</b></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr class="end">
+                    <td><b>7</b></td>
+                    <td><b>8</b></td>
+                    <td><b>9</b></td>
+                </tr>
+            </tfoot>
+        </thead>
+       </table>
+
+        <table id="tb2">
+            <thead>
+                <tr>
+                    <th class="start"><b>1</b></th>
+                    <th class="start"><b>2</b></th>
+                    <th class="start"><b>3</b></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="center">
+                    <td colspan="3"><b>4</b></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td><b>7</b></td>
+                    <td><b>8</b></td>
+                    <td><b>9</b></td>
+                </tr>
+            </tfoot>   
+        </table>
+
+        <table>
+            <tr>
+             <th class="start"><b>1</b></th>
+             <th class="start"><b>2</b></th>
+             <th rowspan="3" align="center"><b>3</b></th>
+            </tr>
+         
+             <tr>
+                 <td colspan="2" align="center"><b>4</b></td>
+             </tr>
+         
+             <tr>
+                 <td><b>5</b></td>
+                 <td><b>6</b></td>
+             </tr>
+        </table>
+    </main>
+</body>
+</html>
